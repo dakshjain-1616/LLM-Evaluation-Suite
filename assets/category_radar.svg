@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="740" viewBox="0 0 760 740" font-family="system-ui,sans-serif">
+<rect width="760" height="740" fill="#0f172a" rx="12"/>
+<rect x="1" y="1" width="758" height="738" fill="none" stroke="#334155" stroke-width="1" rx="11"/>
+<text x="380" y="38" font-size="18" font-weight="700" fill="#f1f5f9" text-anchor="middle">Category Performance Radar</text>
+<text x="380" y="58" font-size="12" fill="#94a3b8" text-anchor="middle">claude-4.7-opus-20260416 vs GPT-5.4 · April 2026</text>
+<polyline points="380.0,287.5 420.2,302.1 441.6,339.1 434.1,381.2 401.4,408.7 358.6,408.7 325.9,381.2 318.4,339.1 339.8,302.1 380.0,287.5" fill="none" stroke="#334155" stroke-width="0.8"/>
+<text x="384" y="291.5" font-size="9" fill="#94a3b8">25%</text>
+<polyline points="380.0,225.0 460.3,254.2 503.1,328.3 488.3,412.5 422.8,467.5 337.2,467.5 271.7,412.5 256.9,328.3 299.7,254.2 380.0,225.0" fill="none" stroke="#334155" stroke-width="0.8"/>
+<text x="384" y="229.0" font-size="9" fill="#94a3b8">50%</text>
+<polyline points="380.0,162.5 500.5,206.4 564.7,317.4 542.4,443.8 444.1,526.2 315.9,526.2 217.6,443.8 195.3,317.4 259.5,206.4 380.0,162.5" fill="none" stroke="#334155" stroke-width="0.8"/>
+<text x="384" y="166.5" font-size="9" fill="#94a3b8">75%</text>
+<polyline points="380.0,100.0 540.7,158.5 626.2,306.6 596.5,475.0 465.5,584.9 294.5,584.9 163.5,475.0 133.8,306.6 219.3,158.5 380.0,100.0" fill="none" stroke="#334155" stroke-width="0.8"/>
+<text x="384" y="104.0" font-size="9" fill="#94a3b8">100%</text>
+<line x1="380" y1="350" x2="380.0" y2="100.0" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="540.7" y2="158.5" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="626.2" y2="306.6" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="596.5" y2="475.0" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="465.5" y2="584.9" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="294.5" y2="584.9" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="163.5" y2="475.0" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="133.8" y2="306.6" stroke="#334155" stroke-width="1"/>
+<line x1="380" y1="350" x2="219.3" y2="158.5" stroke="#334155" stroke-width="1"/>
+<polyline points="380.0,207.4 516.9,186.9 554.9,319.2 566.7,457.8 460.5,571.2 294.5,584.9 218.3,443.3 146.1,308.8 224.0,164.0 380.0,207.4" fill="#7c3aed" fill-opacity="0.3" stroke="#a855f7" stroke-width="2.5"/>
+<polyline points="380.0,212.1 516.6,187.3 525.7,324.3 579.7,465.3 463.4,579.1 294.5,584.9 273.9,411.3 143.0,308.2 226.6,167.2 380.0,212.1" fill="#0369a1" fill-opacity="0.3" stroke="#0ea5e9" stroke-width="2.5"/>
+<circle cx="380.0" cy="207.4" r="5" fill="#a855f7"/>
+<circle cx="380.0" cy="212.1" r="5" fill="#0ea5e9"/>
+<text x="380.0" y="40.0" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="middle">Math</text>
+<text x="380.0" y="54.0" font-size="10" fill="#a78bfa" text-anchor="middle">57%</text>
+<text x="380.0" y="66.0" font-size="10" fill="#38bdf8" text-anchor="middle">55%</text>
+<circle cx="516.9" cy="186.9" r="5" fill="#a855f7"/>
+<circle cx="516.6" cy="187.3" r="5" fill="#0ea5e9"/>
+<text x="579.3" y="112.5" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="start">Code</text>
+<text x="579.3" y="126.5" font-size="10" fill="#a78bfa" text-anchor="start">85%</text>
+<text x="579.3" y="138.5" font-size="10" fill="#38bdf8" text-anchor="start">85%</text>
+<circle cx="554.9" cy="319.2" r="5" fill="#a855f7"/>
+<circle cx="525.7" cy="324.3" r="5" fill="#0ea5e9"/>
+<text x="685.3" y="296.2" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="start">Long-Ctx</text>
+<text x="685.3" y="310.2" font-size="10" fill="#a78bfa" text-anchor="start">71%</text>
+<text x="685.3" y="322.2" font-size="10" fill="#38bdf8" text-anchor="start">59%</text>
+<circle cx="566.7" cy="457.8" r="5" fill="#a855f7"/>
+<circle cx="579.7" cy="465.3" r="5" fill="#0ea5e9"/>
+<text x="648.5" y="505.0" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="start">Instruction</text>
+<text x="648.5" y="519.0" font-size="10" fill="#a78bfa" text-anchor="start">86%</text>
+<text x="648.5" y="531.0" font-size="10" fill="#38bdf8" text-anchor="start">92%</text>
+<circle cx="460.5" cy="571.2" r="5" fill="#a855f7"/>
+<circle cx="463.4" cy="579.1" r="5" fill="#0ea5e9"/>
+<text x="486.0" y="641.3" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="start">Knowledge</text>
+<text x="486.0" y="655.3" font-size="10" fill="#a78bfa" text-anchor="start">94%</text>
+<text x="486.0" y="667.3" font-size="10" fill="#38bdf8" text-anchor="start">98%</text>
+<circle cx="294.5" cy="584.9" r="5" fill="#a855f7"/>
+<circle cx="294.5" cy="584.9" r="5" fill="#0ea5e9"/>
+<text x="274.0" y="641.3" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="end">RAG</text>
+<text x="274.0" y="655.3" font-size="10" fill="#a78bfa" text-anchor="end">100%</text>
+<text x="274.0" y="667.3" font-size="10" fill="#38bdf8" text-anchor="end">100%</text>
+<circle cx="218.3" cy="443.3" r="5" fill="#a855f7"/>
+<circle cx="273.9" cy="411.3" r="5" fill="#0ea5e9"/>
+<text x="111.5" y="505.0" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="end">Safety</text>
+<text x="111.5" y="519.0" font-size="10" fill="#a78bfa" text-anchor="end">75%</text>
+<text x="111.5" y="531.0" font-size="10" fill="#38bdf8" text-anchor="end">49%</text>
+<circle cx="146.1" cy="308.8" r="5" fill="#a855f7"/>
+<circle cx="143.0" cy="308.2" r="5" fill="#0ea5e9"/>
+<text x="74.7" y="296.2" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="end">Multimodal</text>
+<text x="74.7" y="310.2" font-size="10" fill="#a78bfa" text-anchor="end">95%</text>
+<text x="74.7" y="322.2" font-size="10" fill="#38bdf8" text-anchor="end">96%</text>
+<circle cx="224.0" cy="164.0" r="5" fill="#a855f7"/>
+<circle cx="226.6" cy="167.2" r="5" fill="#0ea5e9"/>
+<text x="180.7" y="112.5" font-size="12" font-weight="600" fill="#f1f5f9" text-anchor="end">Agent</text>
+<text x="180.7" y="126.5" font-size="10" fill="#a78bfa" text-anchor="end">97%</text>
+<text x="180.7" y="138.5" font-size="10" fill="#38bdf8" text-anchor="end">95%</text>
+<rect x="30" y="685" width="14" height="14" rx="3" fill="#a855f7" fill-opacity="0.5" stroke="#a855f7" stroke-width="2"/>
+<text x="50" y="697" font-size="13" fill="#f1f5f9">Claude Opus 4.7</text>
+<rect x="30" y="707" width="14" height="14" rx="3" fill="#0ea5e9" fill-opacity="0.5" stroke="#0ea5e9" stroke-width="2"/>
+<text x="50" y="719" font-size="13" fill="#f1f5f9">GPT-5.4</text>
+</svg>

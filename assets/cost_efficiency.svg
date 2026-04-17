@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="530" viewBox="0 0 900 530" font-family="system-ui,sans-serif">
+<defs><linearGradient id="og2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#a855f7"/></linearGradient><linearGradient id="gg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0369a1"/><stop offset="100%" stop-color="#0ea5e9"/></linearGradient></defs>
+<rect width="900" height="530" fill="#0f172a" rx="12"/>
+<rect x="1" y="1" width="898" height="528" fill="none" stroke="#334155" stroke-width="1" rx="11"/>
+<text x="30" y="36" font-size="18" font-weight="700" fill="#f1f5f9">Cost vs Performance</text>
+<text x="30" y="54" font-size="12" fill="#94a3b8">Pricing verified via OpenRouter /api/v1/models · $5/$25 per 1M (Opus 4.7) · $2.50/$15 per 1M (GPT-5.4)</text>
+<line x1="30" y1="66" x2="870" y2="66" stroke="#334155" stroke-width="1"/>
+<text x="200" y="95" font-size="13" font-weight="600" fill="#f1f5f9" text-anchor="middle">Total Cost  (1,040 real API calls)</text>
+<text x="30" y="130" font-size="12" fill="#a855f7">Claude Opus 4.7</text>
+<rect x="30" y="137" width="340" height="28" rx="4" fill="#1e293b"/>
+<rect x="30" y="137" width="340" height="28" rx="4" fill="url(#og2)"/>
+<text x="376" y="156" font-size="13" font-weight="700" fill="#a855f7">$5.54</text>
+<text x="30" y="192" font-size="12" fill="#0ea5e9">GPT-5.4</text>
+<rect x="30" y="199" width="340" height="28" rx="4" fill="#1e293b"/>
+<rect x="30" y="199" width="115" height="28" rx="4" fill="url(#gg2)"/>
+<text x="151" y="218" font-size="13" font-weight="700" fill="#0ea5e9">$1.89</text>
+<text x="200" y="259" font-size="13" font-weight="600" fill="#f1f5f9" text-anchor="middle">Score per Dollar  (higher = better)</text>
+<text x="30" y="286" font-size="12" fill="#a855f7">Claude Opus 4.7</text>
+<rect x="30" y="293" width="340" height="28" rx="4" fill="#1e293b"/>
+<rect x="30" y="293" width="122" height="28" rx="4" fill="url(#og2)"/>
+<text x="158" y="312" font-size="13" font-weight="700" fill="#a855f7">0.147</text>
+<text x="30" y="348" font-size="12" fill="#0ea5e9">GPT-5.4</text>
+<rect x="30" y="355" width="340" height="28" rx="4" fill="#1e293b"/>
+<rect x="30" y="355" width="340" height="28" rx="4" fill="url(#gg2)"/>
+<text x="376" y="374" font-size="13" font-weight="700" fill="#0ea5e9">0.407</text>
+<text x="200" y="411" font-size="11" fill="#94a3b8" text-anchor="middle">GPT-5.4 is 2.8x more cost-efficient · Opus 4.7 is only 2.9x more expensive</text>
+<text x="650" y="95" font-size="13" font-weight="600" fill="#f1f5f9" text-anchor="middle">Benchmark Outcomes</text>
+<text x="590" y="108" font-size="10" fill="#a78bfa" font-weight="700">OPUS</text>
+<text x="635" y="108" font-size="10" fill="#38bdf8" font-weight="700">GPT</text>
+<text x="680" y="108" font-size="10" fill="#94a3b8" font-weight="700">WIN</text>
+<rect x="430" y="114" width="6" height="74" rx="2" fill="#6366f1"/>
+<text x="442" y="125" font-size="10" font-weight="700" fill="#6366f1">MATH</text>
+<text x="442" y="138" font-size="10" fill="#f1f5f9">AIME</text>
+<text x="590" y="138" font-size="10" fill="#a78bfa">40%</text>
+<text x="635" y="138" font-size="10" fill="#38bdf8">40%</text>
+<text x="680" y="138" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<text x="442" y="154" font-size="10" fill="#f1f5f9">MATH-500</text>
+<text x="590" y="154" font-size="10" fill="#a78bfa">85%</text>
+<text x="635" y="154" font-size="10" fill="#38bdf8">75%</text>
+<text x="680" y="154" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="170" font-size="10" fill="#f1f5f9">FrontierMath</text>
+<text x="590" y="170" font-size="10" fill="#a78bfa">83%</text>
+<text x="635" y="170" font-size="10" fill="#38bdf8">77%</text>
+<text x="680" y="170" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="186" font-size="10" fill="#f1f5f9">MathVista</text>
+<text x="590" y="186" font-size="10" fill="#a78bfa">20%</text>
+<text x="635" y="186" font-size="10" fill="#38bdf8">29%</text>
+<text x="680" y="186" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<rect x="430" y="195" width="6" height="74" rx="2" fill="#0ea5e9"/>
+<text x="442" y="206" font-size="10" font-weight="700" fill="#0ea5e9">CODE</text>
+<text x="442" y="219" font-size="10" fill="#f1f5f9">BigCodeBench</text>
+<text x="590" y="219" font-size="10" fill="#a78bfa">100%</text>
+<text x="635" y="219" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="219" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<text x="442" y="235" font-size="10" fill="#f1f5f9">SWE-Bench Pro</text>
+<text x="590" y="235" font-size="10" fill="#a78bfa">82%</text>
+<text x="635" y="235" font-size="10" fill="#38bdf8">77%</text>
+<text x="680" y="235" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="251" font-size="10" fill="#f1f5f9">LiveCodeBench</text>
+<text x="590" y="251" font-size="10" fill="#a78bfa">79%</text>
+<text x="635" y="251" font-size="10" fill="#38bdf8">84%</text>
+<text x="680" y="251" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<text x="442" y="267" font-size="10" fill="#f1f5f9">HumanEval+</text>
+<text x="590" y="267" font-size="10" fill="#a78bfa">80%</text>
+<text x="635" y="267" font-size="10" fill="#38bdf8">79%</text>
+<text x="680" y="267" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<rect x="430" y="276" width="6" height="74" rx="2" fill="#14b8a6"/>
+<text x="442" y="287" font-size="10" font-weight="700" fill="#14b8a6">LONG-CONTEXT</text>
+<text x="442" y="300" font-size="10" fill="#f1f5f9">HELMET-Ruler</text>
+<text x="590" y="300" font-size="10" fill="#a78bfa">0%</text>
+<text x="635" y="300" font-size="10" fill="#38bdf8">0%</text>
+<text x="680" y="300" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<text x="442" y="316" font-size="10" fill="#f1f5f9">ZeroScrolls</text>
+<text x="590" y="316" font-size="10" fill="#a78bfa">94%</text>
+<text x="635" y="316" font-size="10" fill="#38bdf8">92%</text>
+<text x="680" y="316" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="332" font-size="10" fill="#f1f5f9">InfiniteBench</text>
+<text x="590" y="332" font-size="10" fill="#a78bfa">90%</text>
+<text x="635" y="332" font-size="10" fill="#38bdf8">45%</text>
+<text x="680" y="332" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="348" font-size="10" fill="#f1f5f9">FRAMES</text>
+<text x="590" y="348" font-size="10" fill="#a78bfa">100%</text>
+<text x="635" y="348" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="348" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<rect x="430" y="357" width="6" height="38" rx="2" fill="#f59e0b"/>
+<text x="442" y="368" font-size="10" font-weight="700" fill="#f59e0b">INSTRUCTION</text>
+<text x="442" y="381" font-size="10" fill="#f1f5f9">IFEval</text>
+<text x="590" y="381" font-size="10" fill="#a78bfa">92%</text>
+<text x="635" y="381" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="381" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<text x="442" y="397" font-size="10" fill="#f1f5f9">WildBench</text>
+<text x="590" y="397" font-size="10" fill="#a78bfa">80%</text>
+<text x="635" y="397" font-size="10" fill="#38bdf8">84%</text>
+<text x="680" y="397" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<rect x="430" y="406" width="6" height="56" rx="2" fill="#10b981"/>
+<text x="442" y="417" font-size="10" font-weight="700" fill="#10b981">KNOWLEDGE</text>
+<text x="442" y="430" font-size="10" fill="#f1f5f9">SimpleQA</text>
+<text x="590" y="430" font-size="10" fill="#a78bfa">98%</text>
+<text x="635" y="430" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="430" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<text x="442" y="446" font-size="10" fill="#f1f5f9">MedQA</text>
+<text x="590" y="446" font-size="10" fill="#a78bfa">100%</text>
+<text x="635" y="446" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="446" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<text x="442" y="462" font-size="10" fill="#f1f5f9">LegalBench</text>
+<text x="590" y="462" font-size="10" fill="#a78bfa">85%</text>
+<text x="635" y="462" font-size="10" fill="#38bdf8">92%</text>
+<text x="680" y="462" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<rect x="430" y="471" width="6" height="20" rx="2" fill="#8b5cf6"/>
+<text x="442" y="482" font-size="10" font-weight="700" fill="#8b5cf6">RAG</text>
+<text x="442" y="495" font-size="10" fill="#f1f5f9">MIRAGE</text>
+<text x="590" y="495" font-size="10" fill="#a78bfa">100%</text>
+<text x="635" y="495" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="495" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<rect x="430" y="504" width="6" height="56" rx="2" fill="#ef4444"/>
+<text x="442" y="515" font-size="10" font-weight="700" fill="#ef4444">SAFETY</text>
+<text x="442" y="528" font-size="10" fill="#f1f5f9">StrongREJECT</text>
+<text x="590" y="528" font-size="10" fill="#a78bfa">80%</text>
+<text x="635" y="528" font-size="10" fill="#38bdf8">50%</text>
+<text x="680" y="528" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="544" font-size="10" fill="#f1f5f9">HarmBench</text>
+<text x="590" y="544" font-size="10" fill="#a78bfa">65%</text>
+<text x="635" y="544" font-size="10" fill="#38bdf8">25%</text>
+<text x="680" y="544" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="442" y="560" font-size="10" fill="#f1f5f9">TruthfulQA</text>
+<text x="590" y="560" font-size="10" fill="#a78bfa">79%</text>
+<text x="635" y="560" font-size="10" fill="#38bdf8">72%</text>
+<text x="680" y="560" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<rect x="430" y="569" width="6" height="38" rx="2" fill="#f97316"/>
+<text x="442" y="580" font-size="10" font-weight="700" fill="#f97316">MULTIMODAL</text>
+<text x="442" y="593" font-size="10" fill="#f1f5f9">DocVQA</text>
+<text x="590" y="593" font-size="10" fill="#a78bfa">90%</text>
+<text x="635" y="593" font-size="10" fill="#38bdf8">92%</text>
+<text x="680" y="593" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<text x="442" y="609" font-size="10" fill="#f1f5f9">VideoMME</text>
+<text x="590" y="609" font-size="10" fill="#a78bfa">100%</text>
+<text x="635" y="609" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="609" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<rect x="430" y="618" width="6" height="56" rx="2" fill="#ec4899"/>
+<text x="442" y="629" font-size="10" font-weight="700" fill="#ec4899">AGENT</text>
+<text x="442" y="642" font-size="10" fill="#f1f5f9">TAU-Bench</text>
+<text x="590" y="642" font-size="10" fill="#a78bfa">96%</text>
+<text x="635" y="642" font-size="10" fill="#38bdf8">99%</text>
+<text x="680" y="642" font-size="11" fill="#0ea5e9" font-weight="700">v GPT</text>
+<text x="442" y="658" font-size="10" fill="#f1f5f9">GAIA</text>
+<text x="590" y="658" font-size="10" fill="#a78bfa">100%</text>
+<text x="635" y="658" font-size="10" fill="#38bdf8">100%</text>
+<text x="680" y="658" font-size="11" fill="#64748b" font-weight="700">= Tie</text>
+<text x="442" y="674" font-size="10" fill="#f1f5f9">WebArena</text>
+<text x="590" y="674" font-size="10" fill="#a78bfa">95%</text>
+<text x="635" y="674" font-size="10" fill="#38bdf8">88%</text>
+<text x="680" y="674" font-size="11" fill="#a855f7" font-weight="700">^ Opus</text>
+<text x="450" y="522" font-size="10" fill="#475569" text-anchor="middle">Pricing verified via OpenRouter /api/v1/models · Real API charges</text>
+</svg>

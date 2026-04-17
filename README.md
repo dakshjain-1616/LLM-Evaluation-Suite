@@ -19,7 +19,7 @@ Parallel benchmark runner comparing LLMs across 26 tasks via [OpenRouter](https:
 
 ## Results
 
-![Summary](reports/20260417_111804/graphs/summary_card.svg)
+![Summary](assets/summary_card.svg)
 
 | Model | Verified ID | Avg Score | Total Cost | Score/$ | Wins |
 |-------|-------------|-----------|-----------|---------|------|
@@ -35,19 +35,19 @@ The race is close: **10 vs 9** with 7 ties.
 
 ### Per-Benchmark Scores
 
-![Benchmarks](reports/20260417_111804/graphs/benchmark_scores.svg)
+![Benchmarks](assets/benchmark_scores.svg)
 
 ---
 
 ### Category Radar
 
-![Radar](reports/20260417_111804/graphs/category_radar.svg)
+![Radar](assets/category_radar.svg)
 
 ---
 
 ### Cost vs Performance
 
-![Cost](reports/20260417_111804/graphs/cost_efficiency.svg)
+![Cost](assets/cost_efficiency.svg)
 
 ---
 
@@ -146,7 +146,7 @@ The race is close: **10 vs 9** with 7 ties.
 - **Prompts:** 20 per benchmark (synthetic approximations of each official dataset)
 - **Parallelism:** 8 workers via `ProcessPoolExecutor`
 - **Scoring:** Automated heuristic (regex extraction, keyword matching, numeric tolerance)
-- **Pricing:** Opus 4.7 at $15/$75 per 1M tokens · GPT-5.4 at $2.50/$15 per 1M tokens
+- **Pricing:** Opus 4.7 at $5/$25 per 1M tokens · GPT-5.4 at $2.50/$15 per 1M tokens (verified via OpenRouter API)
 
 ---
 
