@@ -1,13 +1,13 @@
 # LLM Evaluation Suite
 
-> **This entire evaluation suite — system design, 26 benchmark implementations, parallel runner, cost tracking, SVG infographics, and results — was built and executed autonomously by [NEO](https://heyneo.com), your fully autonomous AI Engineering Agent.**
+> **This entire evaluation suite — system design, 36 benchmark implementations, parallel runner, cost tracking, SVG infographics, and results — was built and executed autonomously by [NEO](https://heyneo.com), your fully autonomous AI Engineering Agent.**
 
 [![NEO — VS Code](https://img.shields.io/badge/NEO-VS%20Code%20Extension-7c3aed?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
 [![NEO — Cursor](https://img.shields.io/badge/NEO-Cursor%20Extension-0ea5e9?style=for-the-badge&logo=cursor&logoColor=white)](https://marketplace.cursorapi.com/items/?itemName=NeoResearchInc.heyneo)
 
 ---
 
-Parallel benchmark runner comparing LLMs across 26 tasks via [OpenRouter](https://openrouter.ai).  
+Parallel benchmark runner comparing LLMs across 36 tasks via [OpenRouter](https://openrouter.ai).  
 **Model verified:** `anthropic/claude-opus-4-7` → `claude-4.7-opus-20260416` · `openai/gpt-5.4`  
 **Run:** April 17 2026 · 1,040 real API calls · 26 minutes
 
@@ -162,8 +162,11 @@ python run_eval.py --dry-run
 export OPENROUTER_API_KEY=your_key
 python run_eval.py
 
-# Subset
+# Subset (36 benchmarks available — see all options with --help)
 python run_eval.py --benchmarks math500 frontier_math aime --sample-size 10
+
+# List all available benchmarks
+python run_eval.py --help
 ```
 
 ## Output
@@ -173,7 +176,7 @@ reports/<run_id>/
   report.md                 # auto-generated summary
   graphs/
     summary_card.svg        # hero overview
-    benchmark_scores.svg    # all 26 benchmarks dual-bar
+    benchmark_scores.svg    # all 36 benchmarks dual-bar
     category_radar.svg      # spider chart by category
     cost_efficiency.svg     # cost + win matrix
 logs/<run_id>/
